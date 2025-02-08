@@ -1,0 +1,604 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    padding-left: 20px;
+    overflow-x: hidden;
+    margin-left: 20px;
+}
+.triplogo{
+    height: 45px;
+    width: 45px;
+    padding-top: 10px;
+   margin-left: 20px;
+}
+/*Headings*/
+.headings{
+    display: flex;
+    flex-grow: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-bottom: solid white 1px;
+    top:0;
+    position: sticky;
+    z-index:20;
+    background-color: white;
+}
+.main{
+    display: flex;
+}
+.end{
+    gap:20px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    
+}
+.menu{
+    padding-right: 30px;
+    size:10px;
+   display: none;
+}
+.headings_s1{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+.headings_s2{
+    display: flex;
+    gap:40px;
+    align-items: center;
+  padding-right: 140px;
+}
+.headings-item{
+    padding:5px;
+    margin: 2px;
+    width:100px;
+    text-align:center;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.headings-item:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+   
+}
+.headings-itemf:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.headings-itemf{
+    padding-top: 7px;
+}
+.signin{
+    padding-right: 45px;
+    
+}
+.button:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    color:black;
+}
+.button{
+    background-color: black;
+    color:white;
+    border-radius: 40px;
+    width:85px;
+    height:35px;
+    font-weight: bold;
+}
+
+/*Contents*/
+
+.subtitle{
+    padding-top: 50px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+/*Menu*/
+.list-container{
+    display: flex;
+    gap:30px;
+    text-align: center;
+    padding-top: 20px;
+    justify-content: center;
+    font-size: larger;
+}
+/*Search bar*/
+.searchbar{
+    justify-content: center;
+    margin-left: 350px;
+    margin-top:25px;
+}
+.searchbar__s1{
+    padding-top: 5px;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 40px;
+    height: 50%;
+    width: 70%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0%;
+    margin-top: 20px;
+    margin-right:100%;
+}
+.search{
+    border-radius: 60px;
+    width:90px;
+    height:35px;
+    font-size: larger;
+    font-weight: bold;
+    background-color: chocolate;
+    border: chocolate;
+}
+.input{
+   width:100%;
+    border: none;
+    outline: none;
+}
+/*Large Image*/
+img{
+    width: 90%;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 80px;
+    padding-right: 90px;
+    justify-content: center;
+   
+}
+.trip-content{
+   color:white;
+    padding-left: 5px;
+}
+.tripimage{
+    position: relative;
+}
+.trip-content{
+    position: absolute;
+    left:25%;
+    bottom:20%;
+    transform: translate(-50%); 
+}
+.beta{
+    border-radius: 30px;
+    padding: 8px;
+    padding-top: 5px;
+}
+.try{
+    border-radius: 30px;
+    padding: 8px;
+    width:70px;
+    
+}
+.try:hover{
+    cursor: pointer;
+}
+.build{
+    padding-top: 10px;
+    font-size: 50px;
+}
+.desc{
+    padding-top: 10px;
+    
+}
+
+/*Treats*/
+.treats{
+    padding-top: 30px;
+    padding-left: 10px;
+    margin-right: 200px;
+}
+
+.treats_container img{
+   padding-left: 6px; 
+     
+}
+.treats1{
+    position: relative;
+}
+.treats_container{
+    display: flex;    
+}
+.text1{
+    position: absolute;
+    left:50%;
+    bottom:1%;
+    transform: translate(-50%);
+    width:50%;
+    color: white; 
+    text-shadow:  2px 2px #131212;
+  padding: 10px; 
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);  
+}
+
+/*Travels*/
+.travels{
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.travels img{
+    width:350px;
+    height:300px;
+    padding-left: 6px;
+    padding-top: 20px;
+}
+.travels__container{
+    display: flex;
+   }
+.travels__container img{
+    padding-right: 45px;
+}
+.travel-card__t1{
+    text-align: center;
+    padding: 10px;
+}
+.travels__container:hover{
+    cursor: pointer;
+}
+
+/*Tripadvisor*/
+.tripadvisor {
+    padding-left: 10px;
+    margin-right: 100px;
+    
+}
+
+.tripadvisor__container{
+    display: flex;
+    margin-top: 1px;
+}
+.tripadvisor__container img{
+    padding-right: 5px;
+}
+.textco{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+}
+.naturetext{
+    padding-left: 20px;
+}
+.content1{
+    padding-left: 25px;
+}
+
+/*Destination*/
+.destination{
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.destination img{
+    padding-right: 5px;
+    
+}
+.destext{
+    padding-left: 20px;
+    padding-top: 60px;
+    padding-bottom: 6px;
+}
+.destination img{
+    width:300px;
+    height:300px;
+    display: flex;
+    justify-content: space-between;
+}
+.destination__containder{
+    display: flex;
+   
+}
+destination__containder img{
+    padding-left: 20px;
+   margin-top: 2px;
+    
+}
+.dest-img{
+    position: relative;
+}
+.destination__one{
+    position: absolute;
+    left:50%;
+    bottom:1%;
+    transform: translate(-50%);
+    width:50%;
+    color: white; 
+    text-shadow:  2px 2px #131212;
+  padding: 10px; 
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);  
+}
+
+/*Wandere*/
+.wanderer{
+    margin-top: 60px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position: relative;
+    background-color: rgba(236, 139, 11, 0.25);
+    margin-bottom: 20px;
+}
+.wimage{
+    margin-top:5px;
+    margin-bottom: 50px;
+    height:70%;
+    width: 50%;
+}
+.wtriplogo{
+    width: 3%;
+    position: absolute;
+    bottom:54%;
+    left:67.5%;
+}
+.wanderer-1  a{
+ text-decoration: underline;
+}
+.wanderer-1  a:hover{
+    cursor: pointer;
+    color:brown;
+}
+.wanderlab{
+    position: absolute;
+    bottom:55%;
+    right:12%;
+}
+.wanderer-2{
+    position: absolute;
+    top:50%;
+}
+.wanderer-2 h1{
+    text-align: center;
+    
+}
+.wanderer-button{
+    border-radius: 40px;
+    padding:10px;
+   position: absolute;
+   right:35%;
+}
+.amazon{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.wanderer-button:hover{
+    background-color: gainsboro;
+}
+
+
+/*Footer*/
+.footer {
+    background-color: #F2F2F2;
+    color: black;
+    padding: 15px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-container__1 {
+    display: flex;
+    gap: 45px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-container__1 a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+.footer-container__1 p {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer-container__1 a:hover {
+    text-decoration: underline 2px;
+}
+
+.footer__four {
+    margin-left: 20%;
+}
+
+.footer-container__1 p {
+    padding: 5px;
+}
+
+
+.footer-container__2 {
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    position: relative;
+
+
+}
+
+.footer-container__2 img {
+    width: 8%;
+}
+
+.footer__1 {
+    display: flex;
+    
+}
+
+.footer__1 img {
+    width: 25px;
+    margin-top: -90px;
+   
+}
+.footer__1 p {
+    padding-left: 10px;
+    display: flex;
+    transform: translateX(-90px);
+
+}
+.copyright{
+    font-size: 11px;
+    margin-right: -15%;
+}
+
+.footer__2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-top: 2%;
+    gap: 10px;
+    width: 50%;
+    font-size: 15px;
+}
+
+.footer__2 a{
+    font-size: 11px;
+    color: black;
+    opacity: 90%;
+    }
+
+.footer__2 a {
+    text-decoration: underline 2px;
+}
+.footer__3 {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.currency {
+    right: 25%;
+    bottom: 17%;
+    position: absolute;
+    border-radius: 10px;
+    padding: 10px;
+}
+.country {
+    right: 16%;
+    bottom: 17%;
+    position: absolute;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.currency,
+.country:hover {
+    cursor: pointer;
+}
+
+.icons {
+     display: flex;
+    gap: 20px;
+    position: absolute;
+    bottom: 5%;
+    right: 16%;
+    font-size: 15px;
+}
+
+.fa-facebook {
+    color: black;
+}
+.fa-x-twitter {
+    color: black;
+}
+.fa-pinterest {
+    color: black;
+}
+.fa-instagram {
+    color: black;
+}
+.footer__s4 {
+    width: 60%;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.footer__4 a:hover {
+    text-decoration: underline 1px;
+    
+}
+.version{
+    width: 70%;
+    color: grey;
+    font-size: 11px;
+}
+
+
+
+/*Media Queries*/
+@media screen and (max-width: 600px) {
+    body {
+      font-size: 10px;
+    }
+    .menu{
+        display: block;
+        font-size: 16px;
+    }
+   .headings h1, h3{
+        display: none;
+    }
+    .end{
+        display: none;
+    }
+
+    .searchbar__s1{
+        display: none;
+    }
+    
+    .trip-content h1, h4, p, button {
+        font-size:10px;
+       
+    }
+     .trip-content{
+       transform: tr;
+        transform: translateY(25px);
+        
+     }   
+     .treats_container{
+        flex-wrap: wrap;
+     }
+     .tripadvisor__container{
+        flex-wrap: wrap;
+     }
+   .destination__containder{
+        flex-wrap: wrap;
+    }
+    .destination__one{
+        font-size: 16px; 
+        padding: 8px 16px; 
+    }
+    .wanderer{
+        position: relative;
+        display: flex;
+         flex-direction: column; /* Align items vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; 
+        font-size: 5px;
+    }
+    
+    
+    .footer{
+        margin-right: -50px;
+    }
+    .options{
+        display: none;
+    }
+    
+    
+  }
+
